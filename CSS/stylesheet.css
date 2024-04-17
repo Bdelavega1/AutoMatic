@@ -1,0 +1,20 @@
+.flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+
+
+  .header-logo {
+    max-width: 100px; /* adjust this value to your preference */
+    max-height: auto; /* this will maintain the aspect ratio */
+  }
+
+  .custom-button {
+    padding: 0.375rem 0.75rem; /* Adjust padding to control size */
+  }
+
+  .logo {
+    font-size: 1.5rem; /* Adjust this size to fit your header */
+    font-weight: normal; /* Adjust weight if necessary */
+  }
