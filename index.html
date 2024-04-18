@@ -21,69 +21,88 @@
 
   <body>
 
-   <!-- Creating a Top header -->
+<!-- Creating a Top header -->
+<nav class="site-header py-1">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    
+    <!-- Logo placeholder: Use an img tag to include your SVG logo -->
+    <!-- Replace 'path-to-your-logo.svg' with the actual path to your SVG file -->
+    <a href="/" class="logo">
+      <img src="/images/Auromatic Logo.svg" alt="AutoMatic" height="50"> <!-- Set the height to fit your design -->
+    </a>  
 
-    <nav class="site-header  py-1">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-     
-            <h1>AutoMatic</h1>  <!-- Logo placeholder-->
-
-        <div> <a class="btn btn-outline-primary" href="#">Download</a> </div>   <!--Button-->
-          
-             
-      </div>
-    </nav>
-
- <!-- Top header ends here -->
+    <!-- Button on the right -->
+    <div> 
+      <a class="btn btn-outline-primary" href="https://www.figma.com/proto/YiIS9QyckkI48qp2MOStrZ/Auto-Seller-Site?page-id=210%3A3418&type=design&node-id=244-3790&viewport=-510%2C724%2C0.64&t=tPZq5wf8QvBmIEbe-1&scaling=min-zoom&starting-point-node-id=244%3A3790&mode=design">
+        Download</a> 
+    </div>   
+  </div>
+</nav>
+<!-- Top header ends here -->
 
 
  <!-- Top hero card starts here -->
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center hero-background">
+  <!-- We use text-content class with added styles for background and shadow -->
+  <div class="col-md-5 p-lg-5 mx-auto my-5 text-content">
+    <h1 class="display-4 font-weight-normal">The Secure & Hassle-free Vehicle Selling and Buying Experience</h1>
+    <p class="lead font-weight-normal">
+      We’re the app that gives power and choice back to independent vehicle sellers.  
+    </p>
+    <a class="btn btn-outline-primary" href="https://www.figma.com/proto/YiIS9QyckkI48qp2MOStrZ/Auto-Seller-Site?page-id=210%3A3418&type=design&node-id=244-3790&viewport=-510%2C724%2C0.64&t=tPZq5wf8QvBmIEbe-1&scaling=min-zoom&starting-point-node-id=244%3A3790&mode=design">
+      Download</a>
+  </div>
+</div>
+<!-- Top hero card ends here -->
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">The Secure & Hassle-free Vehicle Selling and Buying Experience</h1>       <!-- Main Header Text starts here -->
-        <p class="lead font-weight-normal">
-            We’re the app that gives power and choice back to independent vehicle sellers.  
-        </p>
-        <a class="btn btn-outline-primary" href="#">Download</a>      <!-- Download Button here -->
-      </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+
+
+<!-- Twin cards starts here -->
+
+<!-- Listing card starts here -->
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <!-- Use custom-bg-color for the dark background of the card -->
+  <div class="custom-bg-color mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <!-- Container for the text content of the card -->
+    <div class="my-3 py-3">
+      <h1 class="display-5">Intuitive Listing creation</h1>
+      <p class="lead">Designed for users to create marketable listings efficiently by guiding users through the creation process.</p>
     </div>
- <!-- Top hero card ends here -->
-
-
-  <!-- Top Left card starts here -->
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Intuitive Listing creation</h2>
-          <p class="lead">Designed for users to create marketable listings 
-            efficiently by guiding users through the creation process.</p>
-        </div>
-        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-<!-- Top Left card ends here -->
-
-
-<!-- Top right card starts here -->
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Safe & Secure Meetings</h2>
-          <p class="lead">Creating secure and safe meetings between users by 
-            requiring id verification for profile 
-            creation along with a review system for user interactions.</p>
-        </div>
-        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
+    <!-- The image container now has no inline style; color will be set in CSS -->
+    <div class="box-shadow mx-auto"> 
+      <img src="/images/Listing Preview Iphone.png" alt="">
     </div>
-<!-- Top right card ends here -->
+  </div>
+<!-- Listing card ends here -->
+
+<!-- Profile card starts here -->
+<div class="custom-bg-color-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  <!-- Container for the text content of the card -->
+  <div class="my-3 p-3">
+    <h1 class="display-5">Safe & Secure Meetings</h1>
+    <p class="lead">Creating secure and safe meetings between users by 
+      requiring ID verification for profile 
+      creation along with a review system for user interactions.</p>
+  </div>
+  <!-- The image container now has a specific class for styling -->
+  <div class="image-container box-shadow mx-auto">
+    <img src="/images/User Profile.svg" alt="User Profile">
+  </div>
+</div>
+<!-- Profile card ends here -->
+
+</div>
+
+<!-- Twin cards end here -->
 
 
- 
+
+
+
+
 <!-- Bottom hero card starts here -->
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light hero-background-two">
+    <div class="col-md-5 p-lg-5 mx-auto my-5 text-content">
       <h1 class="display-4 font-weight-normal">Why Auto Matic?</h1>       <!-- Main Header Text starts here -->
       <p class="lead font-weight-normal">
            Auto Matic was designed to help car owners safely and efficiently manage         <!-- Bottom Text starts here -->
@@ -92,7 +111,8 @@ on how to successfully sell your car independently.
         <!-- Bottom Text starts here -->
           
       </p>
-      <a class="btn btn-outline-primary" href="#">Download</a>      <!-- Download Button here -->
+      <a class="btn btn-outline-primary" href="https://www.figma.com/proto/YiIS9QyckkI48qp2MOStrZ/Auto-Seller-Site?page-id=210%3A3418&type=design&node-id=244-3790&viewport=-510%2C724%2C0.64&t=tPZq5wf8QvBmIEbe-1&scaling=min-zoom&starting-point-node-id=244%3A3790&mode=design"
+      >Download</a>      <!-- Download Button here -->
     </div>
     <div class="product-device box-shadow d-none d-md-block"></div>
     <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
@@ -102,31 +122,33 @@ on how to successfully sell your car independently.
 
 
 <!-- Footer starts here -->
-    <footer class="container py-5">
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
 
-      <div class="row">
-        <div class="col-12 col-md">
-          <h1>AutoMatic</h1>
-        </div>
+      <a href="/" class="footer-logo">
+        <img src="/images/Auromatic Logo.svg" alt="AutoMatic" height="50"> <!-- Adjust height -->
+      </a>
+    </div>
 
-        <div class="col-6 col-md">
-          <h5>About Us</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Michael</a></li>
-            <li><a class="text-muted" href="#">Brian</a></li>
-          </ul>
-        </div>
+    <div class="col-6 col-md">
+      <h5>About Us</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Michael</a></li>
+        <li><a class="text-muted" href="#">Brian</a></li>
+      </ul>
+    </div>
 
-        <div class="col-6 col-md">
-          <h5>Contact Us</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">MichealEmail@gmail.com</a></li>
-            <li><a class="text-muted" href="#">Bdelavega12@gmail.com</a></li>
-          </ul>
-        </div>
-        
-      </div>
-    </footer>
+    <div class="col-6 col-md">
+      <h5>Contact Us</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">MichealEmail@gmail.com</a></li>
+        <li><a class="text-muted" href="#">Bdelavega12@gmail.com</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
 <!-- Footer ends here -->
 
     <!-- Bootstrap core JavaScript
