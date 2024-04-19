@@ -36,14 +36,14 @@
 
 /* Class for the hero section background */
 .hero-background {
-  background-image: url('/images/Background Image Hero.svg'); /* Corrected path */
+  background-image: url('/images/Background_Image_Hero.svg'); /* Corrected path */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 /* Class for the hero section background */
 .hero-background-two {
-  background-image: url('/images/bottomo\ hero\ img.svg'); /* Corrected path */
+  background-image: url('/images/bottomo_hero_img.svg'); /* Corrected path */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
