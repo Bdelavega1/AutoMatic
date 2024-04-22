@@ -36,10 +36,25 @@
 
 /* Class for the hero section background */
 .hero-background {
-  background-image: url('/images/Top_Cover_Img.png'); /* Corrected path */
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* New styles for the hero image to cover the hero section */
+.hero-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensures the image stays behind the text content */
+}
+
+/* Styles for the text-content class may remain the same */
+.text-content {
+  position: relative;
+  z-index: 1; /* Ensures the text content stays above the background image */
 }
 /* Class for the hero section background */
 .hero-background-two {
