@@ -65,25 +65,12 @@
 
 
 
-
-
-
 /* Class for the hero section background */
 .hero-background-two {
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  background-color: #f8f9fa; /* or any light color as per design */
-}
-
-/* New styles for the hero image to cover the hero section */
-.hero-image-two {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1; /* Ensures the image stays behind the text content */
+  background-image: url('/images/Bottom_Hero_Img.png'); /* Corrected path */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 
